@@ -1,0 +1,22 @@
+.small-wrapper-preview {
+  width: 100%;
+
+}
+
+.small-preview-headline {
+  margin: 0px;
+  font-size: 18px;
+}
+
+.small-preview-description {
+  font-size: .9rem;
+}
+
+.small-wrapper-preview:hover,
+.small-preview-headline:hover,
+.small-preview-description:hover {
+  color:grey;
+  cursor: pointer;
+}
+
+

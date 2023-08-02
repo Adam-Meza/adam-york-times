@@ -1,12 +1,32 @@
 .home-display{
-  background-color: rgb(178, 178, 178);
   height: 100rem;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.hero-preview-container {
+  display: flex;
+  flex-direction: row;
+  
   width: 100%;
+  height: 100%;
+  padding: 1rem;
+  border-bottom: 1px lightgray solid;
+}
+
+.small-preview-container {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  margin-left: 1rem;
 }
 
 .large-preview-container {
-  width: 60%;
-  height: 100%;
-  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+
 }
 

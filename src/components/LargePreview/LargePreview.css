@@ -1,0 +1,28 @@
+.large-preview-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+}
+
+.large-preview-image {
+  width: 35rem;
+}
+
+.large-preview-info-container{
+  padding: 2rem;
+}
+
+.large-preview-headline {
+  font-size: 1.1rem;
+}
+
+.large-preview-date {
+  font-size: .8rem;
+}
+
+.large-wrapper-preview:hover,
+.large-preview-headline:hover,
+.large-preview-description:hover {
+  color:grey;
+  cursor: pointer;
+}

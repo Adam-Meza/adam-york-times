@@ -7,7 +7,8 @@ import { HomeDisplay } from '../HomeDisplay/HomeDisplay';
 import { apiResponse } from '../../mockData';
 
 const App = () => {
-  const [news, setNews] = useState(apiResponse)
+  const [news, setNews] = useState(apiResponse),
+        [singleStory, setSingle] = useState(null);
 
   useEffect(() => {
     console.log(news)
@@ -19,6 +20,7 @@ const App = () => {
       <Header/>
       <Switch>
         <Route exact path='/' render={() => <HomeDisplay news={news}/>} />
+        <Route exact path='/singleView' render={() => <SinlgeDisplay story={singleStory} />}
       </Switch>
     </div>
   );

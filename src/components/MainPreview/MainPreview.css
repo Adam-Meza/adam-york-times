@@ -1,0 +1,16 @@
+.main-preview-image {
+  width: 100%;
+
+}
+
+.main-preview-wrapper{
+  padding-right: 1rem;
+  border-right: 1px lightgrey solid;
+}
+
+.main-wrapper-preview:hover,
+.main-preview-headline:hover,
+.main-preview-description:hover {
+  color:grey;
+  cursor: pointer;
+}
