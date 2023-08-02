@@ -1,0 +1,12 @@
+.home-display{
+  background-color: rgb(178, 178, 178);
+  height: 100rem;
+  width: 100%;
+}
+
+.large-preview-container {
+  width: 60%;
+  height: 100%;
+  padding: 1rem;
+}
+
