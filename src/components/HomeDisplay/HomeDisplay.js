@@ -9,14 +9,12 @@ export const HomeDisplay = ({news, displaySingleStory}) => {
   const largePreviews = news.slice(5,10).map((story, index) =>
                           <LargePreview
                             story={story}
-                            id={index + 5}
                             displaySingleStory={displaySingleStory}
                           />)
 
   const smallPreviews = news.slice(1, 4).map((story, index) => 
                             <SmallPreview
                               story={story}
-                              id={index}
                               displaySingleStory={displaySingleStory}
                             />)
   return (

@@ -6,6 +6,7 @@ import { HomeDisplay } from '../HomeDisplay/HomeDisplay';
 import { apiResponse } from '../../mockData';
 import { SingleView } from '../SingleView/SingleView';
 import { cleanData } from '../../utilities';
+import { Search } from '../Search/Search';
 
 const App = () => {
   const history = useHistory();
@@ -32,7 +33,6 @@ const App = () => {
   }, []);
 
   const displaySingleStory = (id) => {
-    console.log(id)
     history.push(`/story/${id}`);
   }
 
@@ -56,6 +56,9 @@ const App = () => {
         />
         <Route exact path="/story/:id"
           render={(props) => <SingleView {...props} news={news} />}
+        />
+        <Route exact path='/search'
+         render={()=> <Search news={news} displaySingleStory={displaySingleStory}/>}
         />
       </Switch>
     </div>
