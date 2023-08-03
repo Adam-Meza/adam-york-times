@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { LargePreview } from '../LargePreview/LargePreview';
+import { LargePreview } from '../PreviewComponents/LargePreview/LargePreview';
 import './Search.css'
 
 export const Search = ({ news, displaySingleStory }) => {
@@ -24,7 +24,6 @@ export const Search = ({ news, displaySingleStory }) => {
         onChange={handleInput}
         className="search-input"
         placeholder='Search by Title'>
-        
       </input>
       <div className='preview-container'>{previews}</div>
     </section>
