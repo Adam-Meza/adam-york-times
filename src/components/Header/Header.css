@@ -3,7 +3,7 @@
   height: 9vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   border-bottom: 1px black solid;
 }
@@ -17,16 +17,13 @@
   width: 60%;
 }
 
-h1{
-  margin: 0px;
-  margin-bottom: .4rem;
+.nav {
   text-decoration: none;
   color: inherit;
 }
 
-.nav {
-  text-decoration: none;
-  color: inherit;
+.title-image {
+  width: 60%;
 }
 
 .sort-button{
