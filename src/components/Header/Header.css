@@ -20,6 +20,13 @@
 h1{
   margin: 0px;
   margin-bottom: .4rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.title-nav {
+  text-decoration: none;
+  color: inherit;
 }
 
 .sort-button{

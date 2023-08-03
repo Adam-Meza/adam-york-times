@@ -4,24 +4,32 @@ import { SmallPreview } from '../SmallPreview/SmallPreview'
 import { MainPreview } from '../MainPreview/MainPreview'
 import './HomeDisplay.css'
 
-export const HomeDisplay = ({news}) => {
+export const HomeDisplay = ({news, displaySingleStory}) => {
+  const mainStory = <MainPreview story={news[0]} displaySingleStory={displaySingleStory} id={0}/>
+  const largePreviews = news.slice(5,10).map((story, index) =>
+                          <LargePreview
+                            story={story}
+                            id={index + 5}
+                            displaySingleStory={displaySingleStory}
+                          />)
 
-    const mainStory = <MainPreview story={news[0]}/>
-    const largePreviews = news.slice(5,10)
-                              .map((story, index) => <LargePreview story={story} key={index}/>)
-    const smallPreviews = news.slice(1, 4)
-                              .map((story, index) => <SmallPreview story={story} key={index}/>)
-    return (
-      <main className='home-display'>
-        <div className='hero-preview-container'>
-          {mainStory}
-          <div className='small-preview-container'>
-            {smallPreviews}
-          </div>
+  const smallPreviews = news.slice(1, 4).map((story, index) => 
+                            <SmallPreview
+                              story={story}
+                              id={index}
+                              displaySingleStory={displaySingleStory}
+                            />)
+  return (
+    <main className='home-display'>
+      <div className='hero-preview-container'>
+        {mainStory}
+        <div className='small-preview-container'>
+          {smallPreviews}
         </div>
-        <aside className='large-preview-container'>
-          {largePreviews}
-        </aside>
-      </main>
+      </div>
+      <aside className='large-preview-container'>
+        {largePreviews}
+      </aside>
+    </main>
   )
 }
