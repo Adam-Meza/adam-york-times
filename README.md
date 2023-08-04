@@ -25,5 +25,4 @@ Adam York Times is the culmination of three seperate projects which were brought
 ---
 
 ## Preivew 
-![Preview view]
-(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzdwZzhqZWhmdXBzNnVmdGYwamVubXlpMzdvOHZxcXU5cjJrZmkxZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/U0kKX0vzubSnWS9LGe/giphy.gif)
+![Preview view](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzdwZzhqZWhmdXBzNnVmdGYwamVubXlpMzdvOHZxcXU5cjJrZmkxZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/U0kKX0vzubSnWS9LGe/giphy.gif)
