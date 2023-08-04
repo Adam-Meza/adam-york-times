@@ -4,7 +4,7 @@
 
 Adam York Times serves as an exercise in minimalist, professional web UX/UI design. Modeled after the New York Times site, Adam York times features daily updated news headlines from around the world. It features a sleek modern UI aimed to make the news accessible to all people. AYT also includes Nectr and Boredle, to word based games. Modeled after Spelling Bee and Wordle respectiely, Nectr and Bordle intergrate into AYT seemlessly and give the user the fun and serious side of the NYT expereince. 
 
--- 
+---
 
 ## Context
 
