@@ -12,6 +12,6 @@ Adam York Times was created entirely by Adam Meza during the 3rd and 4th modules
 
 Adam York Times is the culmination of three seperate projects which were brought together into one seemless project. The main news interface was created as a practice take-home technical challenge over a 3 day period. Nectr was Built during the 3rd module as a final project while Bordle was created over a 8 hour period as part of Turings final Hackathon. 
 
---
+---
 
 ## Preivew 
