@@ -31,4 +31,4 @@ Adam York Times is the culmination of three seperate projects which were brought
 
 ## Future Extentsions
 
-I'm gonna build more of the NYT games and probably make my own soon. Also adding more previewsyles and getting the UI to be responsive. 
+I'm gonna build more of the NYT games and probably make my own soon. Also adding more preview styles and getting the UI to be responsive. 
