@@ -26,3 +26,9 @@ Adam York Times is the culmination of three seperate projects which were brought
 
 ## Preivew 
 ![Preview view](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzdwZzhqZWhmdXBzNnVmdGYwamVubXlpMzdvOHZxcXU5cjJrZmkxZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/U0kKX0vzubSnWS9LGe/giphy.gif)
+
+---
+
+## Future Extentsions
+
+I'm gonna build more of the NYT games and probably make my own soon. Also adding more previewsyles and getting the UI to be responsive. 
