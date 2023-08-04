@@ -3,10 +3,10 @@ import './App.css';
 import { useEffect, useState } from 'react';
 import { Switch, Route, useHistory } from 'react-router-dom';
 import { HomeDisplay } from '../HomeDisplay/HomeDisplay';
-import { apiResponse } from '../../mockData';
 import { SingleView } from '../SingleView/SingleView';
 import { cleanData } from '../../utilities';
 import { Search } from '../Search/Search';
+import { Games } from '../Games/Games';
 
 const App = () => {
   const history = useHistory();
@@ -61,6 +61,11 @@ const App = () => {
         <Route exact path='/search'
          render={()=> <Search news={news} displaySingleStory={displaySingleStory}/>}
         />;
+
+        <Route exact path='/games'
+         render={()=> <Games />}
+        />;
+
       </Switch>
     </div>
   );

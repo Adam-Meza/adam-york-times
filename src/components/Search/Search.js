@@ -7,12 +7,16 @@ export const Search = ({ news, displaySingleStory }) => {
   const [previews, setPreviews] = useState([]);
 
   const handleInput = (event) => {
-    const inputValue = event.target.value;
+    const inputValue = event.target.value.toLowerCase();
     setInput(inputValue);
 
     const previewCards = news
-      .filter(story => story.title.includes(inputValue) || story.description.includes(inputValue))
-      .map((story) => ( <LargePreview key={story.id} story={story} displaySingleStory={displaySingleStory} /> ));
+      .filter(story => story.title.toLowerCase().includes(inputValue)
+        || story.description.toLowerCase().includes(inputValue))
+      .map((story) => ( <LargePreview
+                          key={story.id}
+                          story={story}
+                          displaySingleStory={displaySingleStory} /> ));
     
       setPreviews(previewCards);
   };

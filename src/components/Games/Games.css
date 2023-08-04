@@ -1,0 +1,55 @@
+.game-view-wrapper {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 1rem;
+}
+
+.game-square {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+}
+
+.game-info-container {
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.game-button-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.nectr {
+  color: white ;
+  background-color: #435c3c;
+}
+
+.birdle {
+  border: 1px solid lightgrey
+}
+
+a {
+  all: unset;
+}
+
+.play-button {
+  border-radius: 20px;
+  width: 8rem;
+  border: none;
+  height: 4rem;
+}

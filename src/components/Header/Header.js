@@ -11,6 +11,9 @@ export const Header = () => {
       </NavLink>
       <div className="sort-button-container">
       <NavLink to ='/search' className='nav'><button className='sort-button'>SEARCH</button></NavLink>
+      <NavLink to ='/games' className='nav'><button className='sort-button'>GAMES</button></NavLink>
+
+        
         {/* <button className='sort-button'>ABC</button>
         <button className='sort-button'>CNN</button> */}
       </div>
